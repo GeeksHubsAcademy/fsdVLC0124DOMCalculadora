@@ -2,6 +2,12 @@ const pantalla = document.getElementById("pantalla");
 const botones = document.getElementsByClassName("boton");
 const arrayBotones = Array.from(botones);
 
+let operando1 = 0;
+let operando2 = 0;
+let operador = "";
+let resultado = 0;
+let cambio = false;
+
 const operar = (arg1, arg2, oper) => {
   let res = eval(`${arg1} ${oper} ${arg2}`);
 
