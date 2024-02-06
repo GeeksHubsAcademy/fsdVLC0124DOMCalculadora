@@ -1,0 +1,75 @@
+
+body {
+    margin: 0;
+    padding: 0;
+
+    height: 100vh;
+    width: 100vw;
+
+    background-color: beige;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+
+    height: 40em;
+    width: 30em;
+
+    background-color: darkcyan;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#pantalla {
+
+    height: 5rem;
+    width: 28rem;
+
+    background-color: black;
+
+    color: green;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    font-size: 3em;
+}
+
+#botones {
+
+    height: 33em;
+    width: 28em;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.boton {
+
+    height: 6rem;
+    width: 6rem;
+
+    margin: auto;
+    background-color: darkgray;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2em;
+}
+
+.boton:hover{
+
+    cursor:pointer;
+    background-color: lightgrey;
+    color: black;
+}
